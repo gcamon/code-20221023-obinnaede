@@ -1,0 +1,14 @@
+.container {
+  width: 1152px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }   
+}

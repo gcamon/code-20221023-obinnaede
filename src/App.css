@@ -1,0 +1,11 @@
+.App {
+  background: #E5E5E5;
+  padding: 20px;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .App {
+    padding: 0;
+    background: #fff;
+  }   
+}
